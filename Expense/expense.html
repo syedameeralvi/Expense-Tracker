@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense.css">
+    <title>Expense tracker</title>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="container">
+            <h1>My Expense Tracker <style></style></h1>
+            <hr>
+            <label >My Expense Amount:</label> 
+            <input type="number" id="amount" min = 50 step = 50><br>
+            <br>
+            <label>Choose Description:</label> 
+            <input type="text" id="des"> <br>
+            <br>
+            
+            <label >Choose a category:</label> 
+            <select    id="cat"> <br>
+                <option>Movie</option>
+                <option>Popcorn</option>
+                <option>Food</option>
+                <option>Fuel</option>
+                <option>others</option>
+                <br>
+    <input class="btn" type="button" value="Add Expense" onclick="savetoLocalstorage(event)">
+    <ul id="ul">    
+    </ul>
+</div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
+   <script src="./expense.js"></script>
+</body>
+</html>

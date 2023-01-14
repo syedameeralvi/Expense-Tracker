@@ -1,0 +1,22 @@
+body{
+    
+    background-color: rgb(185, 185, 196);
+    background-image: url("R.png");
+    background-repeat: no-repeat;
+    Background-size : 100% 339%;
+   
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(170, 175, 188);
+    border-radius: 9px;
+    background: #babac0;
+    /* box-shadow:  7px 7px 42px #d6d6d6,
+                 -7px -7px 42px #ffffff; */
+    
+        width: 600px;
+        height: 225px;
+    padding: 10px;
+     margin: auto;
+}
